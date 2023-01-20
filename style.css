@@ -139,3 +139,45 @@ li {
     color: #fff;
     cursor: pointer;
 }
+
+.about{
+    width: 100vw;
+    height: 666px;
+    background-color: #EDF2EC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    font-size: 16px;
+    border: 2px solid red;
+}
+
+.about__section{
+    width: 1222px;
+    height: 479px;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.about__section_text{
+    width: 605px;
+    height: 350px;
+    border: 2px solid green;
+    margin-top: 64px;
+}
+
+.about__section_text h2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color:#499A18
+}
+
+.about__section_img{
+    width: 464px;
+    height: 476px;
+    border: 2px solid green;
+}
