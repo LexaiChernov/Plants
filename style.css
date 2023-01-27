@@ -335,6 +335,7 @@ li{
 .prices__wrapper_text_right{
     width: 40%;
     text-align: right;
+    margin-bottom: 20px
 }
 
 .prices__main select{
@@ -365,11 +366,20 @@ li{
     justify-content: space-around;
 }
 
-.right{
+.aside_right{
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.aside_right img{
+    width: 200px;
+    height: 200px;
+}
+.aside_right button{
+    color: #E06733;
+    margin-bottom: 50px;
 }
 
 .contacts{
